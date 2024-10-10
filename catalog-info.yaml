@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "a"
+  description: "AWSAPP-0401"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/aaa
+      title: "a"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/a'
+    jenkins.io/job-full-name: 'apache-azure-app/a'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/aaa
+    backstage.io/linguist: https://github.com/RohanAwasthi/aaa
+    azure.com/tag-selector: 'pid/a'
+spec:
+  type: service
+  lifecycle: development
+  owner: user:default/devtanu.majumder
